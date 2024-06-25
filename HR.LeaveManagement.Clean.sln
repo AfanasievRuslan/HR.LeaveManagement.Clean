@@ -15,9 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7675FE71-92BA-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4A640C6C-8F47-458B-B40E-BABA22645963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Clean", "HR.LeaveManagement.Clean\HR.LeaveManagement.Clean.csproj", "{4248CEDD-0D7D-4EAF-8B2F-207D5EAA99BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{F10647DA-793F-4F37-9BC3-BE5CDD908496}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FADD7CFF-F620-4629-8192-5A32EB9CFD14} = {FADD7CFF-F620-4629-8192-5A32EB9CFD14}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{F10647DA-793F-4F37-9BC3-BE5CDD908496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{FADD7CFF-F620-4629-8192-5A32EB9CFD14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +28,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4248CEDD-0D7D-4EAF-8B2F-207D5EAA99BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4248CEDD-0D7D-4EAF-8B2F-207D5EAA99BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4248CEDD-0D7D-4EAF-8B2F-207D5EAA99BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4248CEDD-0D7D-4EAF-8B2F-207D5EAA99BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F10647DA-793F-4F37-9BC3-BE5CDD908496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F10647DA-793F-4F37-9BC3-BE5CDD908496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10647DA-793F-4F37-9BC3-BE5CDD908496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10647DA-793F-4F37-9BC3-BE5CDD908496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADD7CFF-F620-4629-8192-5A32EB9CFD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADD7CFF-F620-4629-8192-5A32EB9CFD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADD7CFF-F620-4629-8192-5A32EB9CFD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADD7CFF-F620-4629-8192-5A32EB9CFD14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,8 +45,8 @@ Global
 		{6FB4CFD9-CFA1-4DCF-A09F-BC62657A405A} = {32EA1E33-5387-49B6-9AD4-99D98AC56F05}
 		{101DA0F6-4D49-4CFF-8664-AE684A88685D} = {32EA1E33-5387-49B6-9AD4-99D98AC56F05}
 		{7675FE71-92BA-43A1-9C57-38184AD207D5} = {32EA1E33-5387-49B6-9AD4-99D98AC56F05}
-		{4248CEDD-0D7D-4EAF-8B2F-207D5EAA99BB} = {6FB4CFD9-CFA1-4DCF-A09F-BC62657A405A}
 		{F10647DA-793F-4F37-9BC3-BE5CDD908496} = {6FB4CFD9-CFA1-4DCF-A09F-BC62657A405A}
+		{FADD7CFF-F620-4629-8192-5A32EB9CFD14} = {6FB4CFD9-CFA1-4DCF-A09F-BC62657A405A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B29DCF7-DB86-48ED-ADCD-8F635AACDDBA}

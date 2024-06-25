@@ -1,7 +1,6 @@
-﻿using HR.LeaveManagement.Domain;
-using HR.LeaveManagement.Domain.Common;
+﻿using HR.LeaveManagement.Domain.Common;
 
-namespace HR.LeaveManagement.Clean
+namespace HR.LeaveManagement.Domain
 {
      public class LeaveAllocation : BaseEntity
      {

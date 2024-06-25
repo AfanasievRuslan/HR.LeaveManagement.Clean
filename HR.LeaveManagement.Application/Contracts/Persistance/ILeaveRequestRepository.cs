@@ -1,4 +1,4 @@
-﻿using HR.LeaveManagement.Clean;
+﻿using HR.LeaveManagement.Domain;
 
 namespace HR.LeaveManagement.Application.Contracts.Persistance
 {
