@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Features\Commands\LeaveType\**" />
-    <EmbeddedResource Remove="Features\Commands\LeaveType\**" />
-    <None Remove="Features\Commands\LeaveType\**" />
+    <Compile Remove="Features\LeaveType\Commands\LeaveType\**" />
+    <EmbeddedResource Remove="Features\LeaveType\Commands\LeaveType\**" />
+    <None Remove="Features\LeaveType\Commands\LeaveType\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +20,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\LeaveType\Commands\" />
+    <Folder Include="Features\LeaveType\Queries\GetLeaveTypeDetails\" />
   </ItemGroup>
 
 </Project>
